@@ -57,6 +57,8 @@ public class Config
 	public static boolean drawMarkersNameInWorld = drawMarkersNameInWorldDef;
 	public static boolean drawMarkersDistanceInWorldDef = false;
 	public static boolean drawMarkersDistanceInWorld = drawMarkersDistanceInWorldDef;
+	public static boolean doNetherCeilingCheckDef = true;
+	public static boolean doNetherCeilingCheck = doNetherCeilingCheckDef;
 
 	// World configuration Options
 	public static int overlayModeIndexDef = 0;

@@ -66,6 +66,7 @@ public class ConfigurationHandler
 		Config.drawMarkersInWorld = configuration.getBoolean("drawMarkersInWorld", Reference.catOptions, Config.drawMarkersInWorldDef, "", "mw.config.drawMarkersInWorld");
 		Config.drawMarkersNameInWorld = configuration.getBoolean("drawMarkersNameInWorld", Reference.catOptions, Config.drawMarkersNameInWorldDef, "", "mw.config.drawMarkersNameInWorld");
 		Config.drawMarkersDistanceInWorld = configuration.getBoolean("drawMarkersDistanceInWorld", Reference.catOptions, Config.drawMarkersDistanceInWorldDef, "", "mw.config.drawMarkersDistanceInWorld");
+		Config.doNetherCeilingCheck = configuration.getBoolean("doNetherCeilingCheck", Reference.catOptions, Config.doNetherCeilingCheckDef, "", "mw.config.doNetherCeilingCheck");
 	}
 
 	public static void setMapModeDefaults()

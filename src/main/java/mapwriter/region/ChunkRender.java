@@ -173,7 +173,7 @@ public class ChunkRender
 				// mushrooms above the ceiling height. this fixes the
 				// rectangular grey areas (ceiling bedrock) on the nether map.
 				int y;
-				if (dimensionHasCeiling)
+				if (dimensionHasCeiling && Config.doNetherCeilingCheck)
 				{
 					for (y = 127; y >= 0; y--)
 					{

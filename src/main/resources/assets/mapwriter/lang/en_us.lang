@@ -67,6 +67,8 @@ mw.config.drawMarkersNameInWorld=Show markers names in world
 mw.config.drawMarkersNameInWorld.tooltip=Draws a nameplate on the location of the marker in the world
 mw.config.drawMarkersDistanceInWorld=Show markers distance in world
 mw.config.drawMarkersDistanceInWorld.tooltip=Draws a distance label on the location of the marker in the world
+mw.config.doNetherCeilingCheck=Check Nether Ceiling
+mw.config.doNetherCeilingCheck.tooltip=Check if the nether has a ceiling. If false, always render from max Y down.
 
 #Config map
 mw.config.map.enabled=Map enabled
