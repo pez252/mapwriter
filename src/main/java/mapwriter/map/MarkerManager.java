@@ -222,7 +222,8 @@ public class MarkerManager
 		float fBlue = m.getBlue();
 		float fAlpha = 0.2f;
 
-		double distance = m.getDistanceToMarker(renderManager.renderViewEntity);
+		double distance = 0;
+		if (renderManager.renderViewEntity != null) distance = m.getDistanceToMarker(renderManager.renderViewEntity);
 
 		String strText = m.name;
 		String strDistance = " (" + (int) distance + "m)";
