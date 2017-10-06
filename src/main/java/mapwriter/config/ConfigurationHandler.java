@@ -30,7 +30,7 @@ public class ConfigurationHandler
 				configuration.save();
 			}
 
-			configuration.get(Reference.catOptions, "overlayModeIndex", Config.overlayModeIndexDef).setShowInGui(false);
+//			configuration.get(Reference.catOptions, "overlayModeIndex", Config.overlayModeIndexDef).setShowInGui(false);
 			configuration.get(Reference.catOptions, "overlayZoomLevel", Config.zoomInLevelsDef).setShowInGui(false);
 		}
 	}
